@@ -2,11 +2,11 @@ package net.rizov.balloondestroyer.room.play;
 
 public enum PlayRoomEvent {
     pause,
-	resume,
-	restart,
+    resume,
+    restart,
     lose,
     win,
-	quit,
+    quit,
     showLeaderBoard,
     submitScore;
 

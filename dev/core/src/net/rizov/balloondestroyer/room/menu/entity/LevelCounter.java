@@ -16,7 +16,7 @@ public class LevelCounter extends Counter {
 
         TextureAtlas menuAtlas = getRoom().getAsset("menu.atlas", TextureAtlas.class);
 
-        setDigits(new TextureRegion[] {
+        setDigits(new TextureRegion[]{
                 menuAtlas.findRegion("level-digit0"),
                 menuAtlas.findRegion("level-digit1"),
                 menuAtlas.findRegion("level-digit2"),

@@ -1,31 +1,31 @@
 package net.rizov.balloondestroyer.room.play.entity;
 
 public class Burst {
-	
-	private BurstType type;
-	
-	private int score;
 
-	public Burst(BurstType type, int score) {
-		super();
-		this.type = type;
-		this.score = score;
-	}
+    private BurstType type;
 
-	public BurstType getType() {
-		return type;
-	}
+    private int score;
 
-	public void setType(BurstType type) {
-		this.type = type;
-	}
+    public Burst(BurstType type, int score) {
+        super();
+        this.type = type;
+        this.score = score;
+    }
 
-	public int getScore() {
-		return score;
-	}
+    public BurstType getType() {
+        return type;
+    }
 
-	public void setScore(int score) {
-		this.score = score;
-	}
-	
+    public void setType(BurstType type) {
+        this.type = type;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
 }

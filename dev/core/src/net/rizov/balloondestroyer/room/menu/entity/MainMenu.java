@@ -142,7 +142,7 @@ public class MainMenu extends RoomEntity {
         } else if (rulesArea.contains(x, y)) {
             onClick();
             getMenuRoom().show(MenuRoomStatus.rulesPage);
-        }else if (exitArea.contains(x, y)) {
+        } else if (exitArea.contains(x, y)) {
             onClick();
             getGame().quit();
         } else if (selectedBalloon == null) {
@@ -232,6 +232,6 @@ public class MainMenu extends RoomEntity {
     }
 
     private MenuRoom getMenuRoom() {
-        return (MenuRoom)getRoom();
+        return (MenuRoom) getRoom();
     }
 }

@@ -154,7 +154,7 @@ public class LevelSelectMenu extends RoomEntity {
     }
 
     private MenuRoom getMenuRoom() {
-        return (MenuRoom)getRoom();
+        return (MenuRoom) getRoom();
     }
 
 }

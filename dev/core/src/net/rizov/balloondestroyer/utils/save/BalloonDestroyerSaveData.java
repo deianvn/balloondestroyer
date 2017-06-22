@@ -54,7 +54,8 @@ public class BalloonDestroyerSaveData implements SaveData {
         } finally {
             try {
                 in.close();
-            } catch (IOException e) {}
+            } catch (IOException e) {
+            }
         }
     }
 
@@ -77,7 +78,7 @@ public class BalloonDestroyerSaveData implements SaveData {
     private void parseWave(String line) {
         try {
             String key = line.substring(0, line.indexOf('='));
-            int hardness =  Integer.parseInt(key.substring(key.indexOf('.') + 1));
+            int hardness = Integer.parseInt(key.substring(key.indexOf('.') + 1));
             int wave = Integer.parseInt(line.substring(line.indexOf('=') + 1, line.length()));
 
             setWave(new WaveSaveData(wave, hardness));
@@ -88,7 +89,8 @@ public class BalloonDestroyerSaveData implements SaveData {
     private void parseHighScore(String line) {
         try {
             highScore = Integer.parseInt(line.substring(line.indexOf(HIGH_SCORE_KEY + '=') + HIGH_SCORE_KEY.length() + 1, line.length()));
-        } catch (NullPointerException e) {}
+        } catch (NullPointerException e) {
+        }
     }
 
 }

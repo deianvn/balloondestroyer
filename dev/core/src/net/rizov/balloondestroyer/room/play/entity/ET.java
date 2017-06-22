@@ -5,19 +5,19 @@ import net.rizov.gameutils.scene.TextureEntity;
 
 public class ET extends TextureEntity {
 
-	private float speed = 25;
+    private float speed = 25;
 
     public ET(RoomEntity parent) {
         super(parent);
     }
 
     @Override
-	public void update(float deltaTime) {
-		shiftPositionX(speed * deltaTime);
-	}
-	
-	public boolean isAvailable() {
-		return getPositionX() < 480;
-	}
+    public void update(float deltaTime) {
+        shiftPositionX(speed * deltaTime);
+    }
+
+    public boolean isAvailable() {
+        return getPositionX() < 480;
+    }
 
 }

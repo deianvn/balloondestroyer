@@ -55,7 +55,7 @@ public class RulesMenu extends RoomEntity {
     }
 
     private MenuRoom getMenuRoom() {
-        return (MenuRoom)getRoom();
+        return (MenuRoom) getRoom();
     }
 
     private void onClick() {

@@ -17,10 +17,10 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
     private LevelSelectMenu levelSelectMenu;
 
     private RulesMenu rulesMenu;
-	
-	public MenuRoom(Game game) {
-		super(game);
-	}
+
+    public MenuRoom(Game game) {
+        super(game);
+    }
 
     public void showLevelSelectMenu(int hardness, int wave) {
         show(MenuRoomStatus.levelSelection);
@@ -29,7 +29,7 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
 
     public void show(MenuRoomStatus status) {
 
-        switch(status) {
+        switch (status) {
             case mainMenu:
                 mainMenu = new MainMenu(this);
                 break;
@@ -47,7 +47,7 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
     }
 
     @Override
-	public void update(float deltaTime) {
+    public void update(float deltaTime) {
         switch (getStatus()) {
             case mainMenu: {
                 mainMenu.update(deltaTime);
@@ -61,10 +61,10 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
                 rulesMenu.update(deltaTime);
                 break;
         }
-	}
+    }
 
-	@Override
-	public void draw() {
+    @Override
+    public void draw() {
         switch (getStatus()) {
             case mainMenu: {
                 mainMenu.draw();
@@ -81,15 +81,15 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
                 mainMenu.draw();
                 break;
         }
-	}
+    }
 
-	@Override
-	protected void computeDimensions() {
+    @Override
+    protected void computeDimensions() {
 
-	}
+    }
 
-	@Override
-	public boolean keyDown(int keycode) {
+    @Override
+    public boolean keyDown(int keycode) {
         switch (getStatus()) {
             case mainMenu: {
                 mainMenu.keyDown(keycode);
@@ -103,9 +103,9 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
                 rulesMenu.keyDown(keycode);
             }
         }
-		
-		return false;
-	}
+
+        return false;
+    }
 
     @Override
     public boolean keyUp(int keycode) {
@@ -118,25 +118,25 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
     }
 
     @Override
-	public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-		Vector3 coordinates = getViewport().unproject(new Vector3(screenX, screenY, 0));
-		
-		switch (getStatus()) {
-			case mainMenu: {
+    public boolean touchDown(int screenX, int screenY, int pointer, int button) {
+        Vector3 coordinates = getViewport().unproject(new Vector3(screenX, screenY, 0));
+
+        switch (getStatus()) {
+            case mainMenu: {
                 mainMenu.click(coordinates.x, coordinates.y);
                 break;
-			}
-			case levelSelection: {
+            }
+            case levelSelection: {
                 levelSelectMenu.click(coordinates.x, coordinates.y);
                 break;
-			}
+            }
             case rulesPage:
                 rulesMenu.click(coordinates.x, coordinates.y);
                 break;
-		}
-		
-		return false;
-	}
+        }
+
+        return false;
+    }
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
@@ -159,10 +159,10 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
     }
 
     @Override
-	protected void resize(int width, int height) {
-		// TODO Auto-generated method stub
-		
-	}
+    protected void resize(int width, int height) {
+        // TODO Auto-generated method stub
+
+    }
 
     @Override
     protected void prepare() {
@@ -170,36 +170,35 @@ public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements Inp
     }
 
     @Override
-	protected void loadData() {
-		loadAsset("menu.atlas", TextureAtlas.class);
-		loadAsset("yellow_pop.wav", Sound.class);
-		loadAsset("oneup.wav", Sound.class);
-	}
+    protected void loadData() {
+        loadAsset("menu.atlas", TextureAtlas.class);
+        loadAsset("yellow_pop.wav", Sound.class);
+        loadAsset("oneup.wav", Sound.class);
+    }
 
-	@Override
-	protected void show() {
+    @Override
+    protected void show() {
         rulesMenu = new RulesMenu(this);
         show(MenuRoomStatus.mainMenu);
-	}
+    }
 
-	@Override
-	protected void hide() {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    protected void hide() {
+        // TODO Auto-generated method stub
 
-	@Override
-	protected void pause() {
-		// TODO Auto-generated method stub
-		
-	}
+    }
 
-	@Override
-	protected void resume() {
-		// TODO Auto-generated method stub
-		
-	}
-	
+    @Override
+    protected void pause() {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    protected void resume() {
+        // TODO Auto-generated method stub
+
+    }
 
 
 }

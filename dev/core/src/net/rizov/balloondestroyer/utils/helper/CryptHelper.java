@@ -23,8 +23,8 @@ public class CryptHelper {
             crypt.reset();
             crypt.update(text.getBytes("UTF-8"));
             sha1 = byteToHex(crypt.digest());
-        } catch(NoSuchAlgorithmException e) {
-        } catch(UnsupportedEncodingException e) {
+        } catch (NoSuchAlgorithmException e) {
+        } catch (UnsupportedEncodingException e) {
         }
 
         return sha1;

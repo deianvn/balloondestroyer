@@ -20,7 +20,7 @@ public class BalloonDestroyerSaveManager extends SaveManager {
     }
 
     private static BalloonDestroyerSaveData getSaveData() {
-        return (BalloonDestroyerSaveData)saveData;
+        return (BalloonDestroyerSaveData) saveData;
     }
 
 }

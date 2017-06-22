@@ -1,0 +1,542 @@
+
+play.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+balloon-blue
+  rotate: false
+  xy: 886, 20
+  size: 80, 131
+  orig: 80, 131
+  offset: 0, 0
+  index: -1
+balloon-burst-blue
+  rotate: false
+  xy: 1016, 161
+  size: 6, 32
+  orig: 6, 32
+  offset: 0, 0
+  index: -1
+balloon-burst-green
+  rotate: false
+  xy: 971, 228
+  size: 3, 21
+  orig: 3, 21
+  offset: 0, 0
+  index: -1
+balloon-burst-red
+  rotate: false
+  xy: 971, 251
+  size: 8, 40
+  orig: 8, 40
+  offset: 0, 0
+  index: -1
+balloon-burst-tnt
+  rotate: false
+  xy: 981, 270
+  size: 3, 21
+  orig: 3, 21
+  offset: 0, 0
+  index: -1
+balloon-burst-yellow
+  rotate: false
+  xy: 976, 224
+  size: 5, 25
+  orig: 5, 25
+  offset: 0, 0
+  index: -1
+balloon-green
+  rotate: false
+  xy: 968, 70
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+bonus-x2
+  rotate: false
+  xy: 968, 44
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+bonus-x3
+  rotate: false
+  xy: 971, 998
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+dawn-background
+  rotate: false
+  xy: 489, 222
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+day-cloud1
+  rotate: false
+  xy: 424, 23
+  size: 460, 197
+  orig: 460, 197
+  offset: 0, 0
+  index: -1
+dialog-digit0
+  rotate: false
+  xy: 971, 555
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+dialog-digit1
+  rotate: false
+  xy: 1009, 45
+  size: 12, 23
+  orig: 12, 23
+  offset: 0, 0
+  index: -1
+dialog-digit2
+  rotate: false
+  xy: 971, 381
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+dialog-digit3
+  rotate: false
+  xy: 971, 405
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+dialog-digit4
+  rotate: false
+  xy: 971, 530
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+dialog-digit5
+  rotate: false
+  xy: 971, 505
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+dialog-digit6
+  rotate: false
+  xy: 971, 480
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+dialog-digit7
+  rotate: false
+  xy: 971, 580
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+dialog-digit8
+  rotate: false
+  xy: 971, 455
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+dialog-digit9
+  rotate: false
+  xy: 971, 430
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+dialog-paused
+  rotate: false
+  xy: 2, 20
+  size: 420, 200
+  orig: 420, 200
+  offset: 0, 0
+  index: -1
+dusk-simple-background
+  rotate: false
+  xy: 475, 11
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+et
+  rotate: false
+  xy: 971, 845
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+life
+  rotate: false
+  xy: 999, 12
+  size: 23, 30
+  orig: 23, 30
+  offset: 0, 0
+  index: -1
+night-background
+  rotate: false
+  xy: 2, 222
+  size: 485, 800
+  orig: 485, 800
+  offset: 0, 0
+  index: -1
+score
+  rotate: false
+  xy: 886, 195
+  size: 132, 25
+  orig: 132, 25
+  offset: 0, 0
+  index: -1
+score-digit0
+  rotate: false
+  xy: 971, 359
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+score-digit1
+  rotate: false
+  xy: 459, 2
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+score-digit2
+  rotate: false
+  xy: 983, 226
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+score-digit3
+  rotate: false
+  xy: 971, 337
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+score-digit4
+  rotate: false
+  xy: 424, 2
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+score-digit5
+  rotate: false
+  xy: 971, 315
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+score-digit6
+  rotate: false
+  xy: 971, 293
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+score-digit7
+  rotate: false
+  xy: 442, 2
+  size: 15, 19
+  orig: 15, 19
+  offset: 0, 0
+  index: -1
+score-digit8
+  rotate: false
+  xy: 983, 248
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+score-digit9
+  rotate: false
+  xy: 986, 271
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 886, 153
+  size: 128, 40
+  orig: 128, 40
+  offset: 0, 0
+  index: -1
+wave-digit0
+  rotate: false
+  xy: 971, 878
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+wave-digit1
+  rotate: false
+  xy: 971, 605
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
+wave-digit2
+  rotate: false
+  xy: 971, 645
+  size: 27, 37
+  orig: 27, 37
+  offset: 0, 0
+  index: -1
+wave-digit3
+  rotate: false
+  xy: 971, 684
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+wave-digit4
+  rotate: false
+  xy: 971, 958
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+wave-digit5
+  rotate: false
+  xy: 971, 805
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+wave-digit6
+  rotate: false
+  xy: 971, 764
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+wave-digit7
+  rotate: false
+  xy: 971, 918
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+wave-digit8
+  rotate: false
+  xy: 971, 724
+  size: 28, 38
+  orig: 28, 38
+  offset: 0, 0
+  index: -1
+wave-digit9
+  rotate: false
+  xy: 968, 3
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+
+play2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+balloon-tnt
+  rotate: false
+  xy: 966, 920
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+balloon-yellow
+  rotate: false
+  xy: 926, 91
+  size: 74, 108
+  orig: 74, 108
+  offset: 0, 0
+  index: -1
+day-background
+  rotate: false
+  xy: 2, 201
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+dusk-background
+  rotate: false
+  xy: 484, 201
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+dusk-cloud1
+  rotate: false
+  xy: 2, 2
+  size: 460, 197
+  orig: 460, 197
+  offset: 0, 0
+  index: -1
+night-cloud1
+  rotate: false
+  xy: 464, 2
+  size: 460, 197
+  orig: 460, 197
+  offset: 0, 0
+  index: -1
+
+play3.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+credits-cheat
+  rotate: false
+  xy: 215, 89
+  size: 455, 43
+  orig: 455, 43
+  offset: 0, 0
+  index: -1
+credits1
+  rotate: false
+  xy: 215, 41
+  size: 356, 46
+  orig: 356, 46
+  offset: 0, 0
+  index: -1
+credits2
+  rotate: false
+  xy: 2, 233
+  size: 241, 769
+  orig: 241, 769
+  offset: 0, 0
+  index: -1
+credits3
+  rotate: false
+  xy: 645, 201
+  size: 290, 219
+  orig: 290, 219
+  offset: 0, 0
+  index: -1
+credits4
+  rotate: false
+  xy: 645, 201
+  size: 290, 219
+  orig: 290, 219
+  offset: 0, 0
+  index: -1
+day-cloud2
+  rotate: false
+  xy: 2, 87
+  size: 211, 144
+  orig: 211, 144
+  offset: 0, 0
+  index: -1
+day-cloud3
+  rotate: false
+  xy: 697, 2
+  size: 299, 197
+  orig: 299, 197
+  offset: 0, 0
+  index: -1
+day-cloud4
+  rotate: false
+  xy: 245, 436
+  size: 398, 238
+  orig: 398, 238
+  offset: 0, 0
+  index: -1
+day-cloud5
+  rotate: false
+  xy: 667, 810
+  size: 323, 192
+  orig: 323, 192
+  offset: 0, 0
+  index: -1
+dialog-game-over
+  rotate: false
+  xy: 245, 676
+  size: 420, 326
+  orig: 420, 326
+  offset: 0, 0
+  index: -1
+dusk-cloud4
+  rotate: false
+  xy: 245, 196
+  size: 398, 238
+  orig: 398, 238
+  offset: 0, 0
+  index: -1
+dusk-cloud5
+  rotate: false
+  xy: 667, 616
+  size: 323, 192
+  orig: 323, 192
+  offset: 0, 0
+  index: -1
+night-cloud5
+  rotate: false
+  xy: 645, 422
+  size: 323, 192
+  orig: 323, 192
+  offset: 0, 0
+  index: -1
+score-panel
+  rotate: false
+  xy: 215, 134
+  size: 480, 60
+  orig: 480, 60
+  offset: 0, 0
+  index: -1
+
+play4.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+balloon-red
+  rotate: false
+  xy: 916, 311
+  size: 99, 128
+  orig: 99, 128
+  offset: 0, 0
+  index: -1
+dusk-cloud2
+  rotate: false
+  xy: 703, 295
+  size: 211, 144
+  orig: 211, 144
+  offset: 0, 0
+  index: -1
+dusk-cloud3
+  rotate: false
+  xy: 2, 2
+  size: 299, 197
+  orig: 299, 197
+  offset: 0, 0
+  index: -1
+night-cloud2
+  rotate: false
+  xy: 703, 149
+  size: 211, 144
+  orig: 211, 144
+  offset: 0, 0
+  index: -1
+night-cloud3
+  rotate: false
+  xy: 402, 242
+  size: 299, 197
+  orig: 299, 197
+  offset: 0, 0
+  index: -1
+night-cloud4
+  rotate: false
+  xy: 2, 201
+  size: 398, 238
+  orig: 398, 238
+  offset: 0, 0
+  index: -1

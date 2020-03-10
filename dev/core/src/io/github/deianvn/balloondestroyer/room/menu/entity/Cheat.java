@@ -2,8 +2,8 @@ package io.github.deianvn.balloondestroyer.room.menu.entity;
 
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.math.Rectangle;
-import net.rizov.gameutils.scene.Room;
-import net.rizov.gameutils.scene.Updatable;
+import io.github.deianvn.gameutils.scene.Room;
+import io.github.deianvn.gameutils.scene.Updatable;
 
 public class Cheat implements Updatable {
 

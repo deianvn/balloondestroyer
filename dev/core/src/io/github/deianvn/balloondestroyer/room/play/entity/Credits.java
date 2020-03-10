@@ -4,8 +4,8 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
-import net.rizov.gameutils.scene.RoomEntity;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class Credits extends RoomEntity {
 

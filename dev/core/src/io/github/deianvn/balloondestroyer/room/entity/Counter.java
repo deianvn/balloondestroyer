@@ -3,7 +3,7 @@ package io.github.deianvn.balloondestroyer.room.entity;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public abstract class Counter extends RoomEntity {
 

@@ -1,6 +1,6 @@
 package io.github.deianvn.balloondestroyer.utils.save;
 
-import net.rizov.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Game;
 
 public abstract class SaveManager {
 

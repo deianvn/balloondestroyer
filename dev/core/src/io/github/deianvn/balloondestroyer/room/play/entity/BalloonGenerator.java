@@ -5,8 +5,8 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Ellipse;
 import com.badlogic.gdx.math.Vector2;
 import io.github.deianvn.balloondestroyer.room.entity.Balloon;
-import net.rizov.gameutils.scene.Room;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.Room;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public class BalloonGenerator {
 

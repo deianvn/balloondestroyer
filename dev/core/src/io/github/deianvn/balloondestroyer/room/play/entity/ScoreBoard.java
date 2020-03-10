@@ -4,7 +4,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public class ScoreBoard extends RoomEntity {
 

@@ -3,7 +3,7 @@ package io.github.deianvn.balloondestroyer.utils.save;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import io.github.deianvn.balloondestroyer.utils.helper.CryptHelper;
-import net.rizov.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Game;
 
 public class BalloonDestroyerGdxPreferencesSaveConnector implements SaveConnector {
 

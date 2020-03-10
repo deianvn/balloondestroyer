@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import io.github.deianvn.balloondestroyer.room.menu.MenuRoom;
-import net.rizov.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Game;
 
 public class BalloonDestroyer extends ApplicationAdapter {
 

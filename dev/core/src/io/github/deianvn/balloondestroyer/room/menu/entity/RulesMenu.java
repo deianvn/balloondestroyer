@@ -7,8 +7,8 @@ import com.badlogic.gdx.math.Circle;
 import io.github.deianvn.balloondestroyer.room.menu.MenuRoom;
 import io.github.deianvn.balloondestroyer.room.menu.MenuRoomStatus;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
-import net.rizov.gameutils.scene.RoomEntity;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class RulesMenu extends RoomEntity {
 

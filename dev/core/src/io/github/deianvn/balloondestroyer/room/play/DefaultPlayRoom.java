@@ -17,8 +17,8 @@ import io.github.deianvn.balloondestroyer.room.play.entity.Time;
 import io.github.deianvn.balloondestroyer.room.play.entity.Wave;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
 import io.github.deianvn.balloondestroyer.utils.save.BalloonDestroyerSaveManager;
-import net.rizov.gameutils.scene.Game;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class DefaultPlayRoom extends PlayRoom {
 

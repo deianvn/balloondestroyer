@@ -1,6 +1,6 @@
 package io.github.deianvn.balloondestroyer.utils.helper;
 
-import net.rizov.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Game;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

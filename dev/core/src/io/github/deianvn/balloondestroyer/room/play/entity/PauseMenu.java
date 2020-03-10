@@ -7,8 +7,8 @@ import com.badlogic.gdx.math.Circle;
 import com.badlogic.gdx.math.Vector2;
 import io.github.deianvn.balloondestroyer.room.play.PlayRoomEvent;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
-import net.rizov.gameutils.scene.RoomEntity;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class PauseMenu extends TextureEntity {
 

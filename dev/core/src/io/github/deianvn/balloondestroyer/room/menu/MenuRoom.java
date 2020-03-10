@@ -7,8 +7,8 @@ import com.badlogic.gdx.math.Vector3;
 import io.github.deianvn.balloondestroyer.room.menu.entity.LevelSelectMenu;
 import io.github.deianvn.balloondestroyer.room.menu.entity.MainMenu;
 import io.github.deianvn.balloondestroyer.room.menu.entity.RulesMenu;
-import net.rizov.gameutils.scene.Game;
-import net.rizov.gameutils.scene.Room;
+import io.github.deianvn.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Room;
 
 public class MenuRoom extends Room<MenuRoomStatus, MenuRoomEvent> implements InputProcessor {
 

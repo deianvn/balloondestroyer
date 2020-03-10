@@ -6,7 +6,7 @@ import com.badlogic.gdx.utils.Array;
 import io.github.deianvn.balloondestroyer.room.entity.Balloon;
 import io.github.deianvn.balloondestroyer.room.play.entity.BalloonGenerator.BalloonType;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public class Wave extends RoomEntity {
 

@@ -2,8 +2,8 @@ package io.github.deianvn.balloondestroyer.room.play.entity;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import net.rizov.gameutils.scene.RoomEntity;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class Decoration extends TextureEntity {
 

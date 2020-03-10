@@ -3,7 +3,7 @@ package io.github.deianvn.balloondestroyer.room.menu.entity;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import io.github.deianvn.balloondestroyer.room.entity.Counter;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public class LevelCounter extends Counter {
 

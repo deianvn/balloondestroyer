@@ -2,7 +2,7 @@ package io.github.deianvn.balloondestroyer.utils.config;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
-import net.rizov.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Game;
 
 public class ConfigManager {
 

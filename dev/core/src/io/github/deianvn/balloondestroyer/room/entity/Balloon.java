@@ -5,8 +5,8 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Ellipse;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
-import net.rizov.gameutils.scene.RoomEntity;
-import net.rizov.gameutils.scene.TextureEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.TextureEntity;
 
 public class Balloon extends TextureEntity {
 

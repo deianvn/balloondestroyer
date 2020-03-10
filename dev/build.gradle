@@ -48,8 +48,6 @@ project(":desktop") {
         implementation project(":core")
         api "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
-
-        implementation "net.rizov:gameutils:1.0-SNAPSHOT"
     }
 }
 
@@ -66,8 +64,6 @@ project(":android") {
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86_64"
-
-        implementation "net.rizov:gameutils:1.0-SNAPSHOT"
     }
 }
 
@@ -107,6 +103,5 @@ project(":core") {
 
     dependencies {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
-        implementation "net.rizov:gameutils:1.0-SNAPSHOT"
     }
 }

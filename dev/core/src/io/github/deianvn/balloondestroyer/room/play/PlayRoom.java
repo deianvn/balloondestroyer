@@ -3,8 +3,8 @@ package io.github.deianvn.balloondestroyer.room.play;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.math.Vector3;
 import io.github.deianvn.balloondestroyer.room.play.entity.Time;
-import net.rizov.gameutils.scene.Game;
-import net.rizov.gameutils.scene.Room;
+import io.github.deianvn.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Room;
 
 public abstract class PlayRoom extends Room<PlayRoomStatus, PlayRoomEvent> implements InputProcessor {
 

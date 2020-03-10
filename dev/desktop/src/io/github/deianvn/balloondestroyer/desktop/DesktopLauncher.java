@@ -16,10 +16,10 @@ import io.github.deianvn.balloondestroyer.utils.save.BalloonDestroyerSaveManager
 import io.github.deianvn.balloondestroyer.utils.save.SaveConnector;
 import io.github.deianvn.balloondestroyer.utils.save.SaveManager;
 import io.github.deianvn.balloondestroyer.utils.save.SaveNameProvider;
-import net.rizov.gameutils.scene.EventListener;
-import net.rizov.gameutils.scene.Factory;
-import net.rizov.gameutils.scene.Game;
-import net.rizov.gameutils.scene.Room;
+import io.github.deianvn.gameutils.scene.EventListener;
+import io.github.deianvn.gameutils.scene.Factory;
+import io.github.deianvn.gameutils.scene.Game;
+import io.github.deianvn.gameutils.scene.Room;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {

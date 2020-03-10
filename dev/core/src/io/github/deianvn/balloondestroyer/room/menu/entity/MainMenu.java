@@ -16,7 +16,7 @@ import io.github.deianvn.balloondestroyer.room.menu.MenuRoomEvent;
 import io.github.deianvn.balloondestroyer.room.menu.MenuRoomStatus;
 import io.github.deianvn.balloondestroyer.utils.config.ConfigManager;
 import io.github.deianvn.balloondestroyer.utils.save.BalloonDestroyerSaveManager;
-import net.rizov.gameutils.scene.RoomEntity;
+import io.github.deianvn.gameutils.scene.RoomEntity;
 
 public class MainMenu extends RoomEntity {
 
@@ -138,7 +138,7 @@ public class MainMenu extends RoomEntity {
         } else if (rateArea.contains(x, y)) {
             onClick();
             getMenuRoom().triggerEvent(MenuRoomEvent.rate);
-            //Gdx.net.openURI("https://play.google.com/store/apps/details?id=net.rizov.balloondestroyer.android");
+            //Gdx.net.openURI("https://play.google.com/store/apps/details?id=io.github.deianvn.balloondestroyer.android");
         } else if (rulesArea.contains(x, y)) {
             onClick();
             getMenuRoom().show(MenuRoomStatus.rulesPage);
